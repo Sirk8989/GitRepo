@@ -1,4 +1,4 @@
-package origen;
+package cuentas;
 
 public class CCuenta {
 
