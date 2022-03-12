@@ -36,7 +36,7 @@ public class CCuenta {
     }
 
 /**
- * 
+ * Sirve para comprobar el saldo de la cuenta
  * @return Devuelve el saldo de la cuenta
  */
     public double estado()
@@ -71,7 +71,7 @@ public class CCuenta {
     }
 
 /**
- * 
+ * Sirve para obtener el nombre del titular de la cuenta
  * @return Devuelve el nombre del titular de la cuenta
  */
 	private String getNombre() {
@@ -79,7 +79,7 @@ public class CCuenta {
 	}
 	
 /**
- * 
+ * Establece el nombre del titular de la cuenta
  * @param nombre Nombre del titular de la cuenta
  */
 	private void setNombre(String nombre) {
@@ -87,7 +87,7 @@ public class CCuenta {
 	}
 
 /**
- * 
+ * Recupera el número de cuenta
  * @return Devuelve el número de cuenta
  */
 	private String getCuenta() {
@@ -95,7 +95,7 @@ public class CCuenta {
 	}
 
 /**
- * 
+ * Establece el número de cuenta
  * @param cuenta Número de cuenta del titular
  */
 	private void setCuenta(String cuenta) {
@@ -103,7 +103,7 @@ public class CCuenta {
 	}
 
 /**
- * 
+ * Obtiene el saldo de la cuenta
  * @return Devuelve el saldo de la cuenta
  */
 	private double getSaldo() {
@@ -111,7 +111,7 @@ public class CCuenta {
 	}
 
 /**
- * 
+ * Establece el saldo de la cuenta
  * @param saldo Saldo a establecer en la cuenta
  */
 	private void setSaldo(double saldo) {
